@@ -1,2 +1,4 @@
 # batmon
-signalk battery monitor
+arduino based signalk battery monitor
+
+Work in progress
