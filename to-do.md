@@ -11,7 +11,7 @@ config.json:
 
 {
   "enabled": true,
-  "id": "newprov",
+  "id": "BATMON",
   "pipeElements": [
     {
       "options": {
