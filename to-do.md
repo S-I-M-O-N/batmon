@@ -7,6 +7,10 @@ Arduino examples:
 https://github.com/emilecantin/arduino-signalk/blob/master/arduino_sketch/Sensors/Sensors.ino
 
 
+
+‘fully  charged’  when the following ‘charged parameters’  are met:  the  voltage  exceeds  13.2V  and simultaneously  the (tail-)  charge current  is  less  than  4.0%  of  the total battery  capacity  (e.g.  8A  for  a 200Ah battery)  during 3  minutes. 
+
+
 config.json:
 
 {
