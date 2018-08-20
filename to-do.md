@@ -13,6 +13,9 @@ https://github.com/emilecantin/arduino-signalk/blob/master/arduino_sketch/Sensor
 A battery is considered non-usable if its nominal capacity falls below 60 to 80%.
 End of life factor used is 1.25 for battery sizing.
 
+
+temperature compensated fuel gauging?
+
 config.json:
 
 {
