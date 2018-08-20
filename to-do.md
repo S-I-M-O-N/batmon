@@ -33,13 +33,8 @@ During   charging,   the   clamp   voltage   will
 increase  from  over  2  Volts  to  about  2.7  Volts 
 per  cell,  depending  on  the  charging  system 
 used.
-When a voltage of 2.4 Volts per cell is reached, 
-the battery generates gas (hydrogen and oxy
--
-gen).  The  battery  is  then  75  to  80%  charged. 
-During   this   gas   development   phase,   the 
-charge current should not exceed 8 Amps per 
-100 Ah.
+
+When a voltage of 2.4 Volts per cell is reached, the battery generates gas (hydrogen and oxygen).  The  battery  is  then  75  to  80%  charged. During   this   gas   development   phase,   the charge current should not exceed 8 Amps per 100 Ah.
 
 config.json:
 
