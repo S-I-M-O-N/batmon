@@ -12,9 +12,34 @@ https://github.com/emilecantin/arduino-signalk/blob/master/arduino_sketch/Sensor
 
 A battery is considered non-usable if its nominal capacity falls below 60 to 80%.
 End of life factor used is 1.25 for battery sizing.
+electrical.batteries.*.capacity.stateOfHealth
+State of Health, 1 = 100%
+**Units:**ratio
 
 
-temperature compensated fuel gauging?
+temperature and peukert compensated fuel gauging?
+
+
+vetus sealed maintenance free (SMF) with magic eye 
+From vetus AGM:
+The  battery  is  fully  discharged  when  the  volt
+age  drops  to  10.5  Volts  (or  21.0  Volts)  for  the 
+nominal discharge current.
+13.8V (trickle charging). 
+As  a  rule,  a charge  factor  of  1.15  should  be  maintained
+This means that you should charge 1.15 times the  Ah  that  was  taken  from  the  previous  battery discharge. 
+When  charging,  the  VETUS  battery  may  not become  hotter  than  52°C.  The  charging  voltage  may  not  be  greater  than  14.8V,  and  this not for longer than 5 hours, 
+During   charging,   the   clamp   voltage   will 
+increase  from  over  2  Volts  to  about  2.7  Volts 
+per  cell,  depending  on  the  charging  system 
+used.
+When a voltage of 2.4 Volts per cell is reached, 
+the battery generates gas (hydrogen and oxy
+-
+gen).  The  battery  is  then  75  to  80%  charged. 
+During   this   gas   development   phase,   the 
+charge current should not exceed 8 Amps per 
+100 Ah.
 
 config.json:
 
